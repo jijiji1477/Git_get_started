@@ -24,7 +24,15 @@
 git push -u origin master
 ```
 `git push`用于把本地推送至远程仓库，`origin`是之前连接远程仓库时给该仓库取的别名，
-**待明确的参数**:`-u`,`master`
+##### 参数解释
+`-u`:
+>更新`git push`命令的默认参数，在运行`git push -u origin master`后，下次再直接运行`git push`命令，就相当于运行的是`git push origin master`
+
+`master`：
+>推送的本地分支
+
+`origin`:
+>推送至指定的主机，`origin`是执行`git remote add`命令时给远程主机起的别名
 
 ***
 #### 从远程仓库克隆到本地
